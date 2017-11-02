@@ -4,11 +4,11 @@
             <h3 class="ng-binding">Gruppe</h3>
             <span flex="" class="flex"></span>
 
-            <md-button class="md-primary" aria-label="Opferlamm" ng-click="addSacrifice()" ng-hide="group.sacrifice">
+            <md-button class="md-primary" aria-label="NICHT KLICKEN" ng-click="addSacrifice()" ng-hide="group.sacrifice">
                 + Opferlamm
             </md-button>
-            <md-button class="md-primary" aria-label="Poet" ng-click="addParticipant()">
-                + Poet
+            <md-button class="md-primary" aria-label="Slammer" ng-click="addParticipant()">
+                + Slammer
             </md-button>
         </div>
     </md-toolbar>
@@ -33,7 +33,7 @@
 
         <md-subheader ng-show="group.participants && group.participants.length > 0" class="md-no-sticky">
             {{group.participants.length}}
-            <ng-pluralize count="group.participants.length" when="{1: 'Poet', 'other' :'Poeten'}"></ng-pluralize>
+            <ng-pluralize count="group.participants.length" when="{1: 'Slammer', 'other' :'Slammer'}"></ng-pluralize>
         </md-subheader>
     </md-list>
     <md-list ng-sortable style="padding-top: 0">
