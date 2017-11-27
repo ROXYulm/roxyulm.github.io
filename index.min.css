@@ -3508,12 +3508,12 @@ html, body {
 }
 
 .box-highlight {
-    background-color: #31AED6;
+    background-color: #D8BF35;
 }
 
 .box-grey {
-    background-color: #F9F4E8;
-    color: #ff1493;
+    background-color: #31AED6;
+    color: #FFFFFF;
 }
 
 .box-ignored {
