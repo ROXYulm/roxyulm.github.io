@@ -3460,7 +3460,7 @@ html, body {
 
 .screen-container {
     position: center;
-    width: 100%;
+    width: 100vw;
     height: 75vw;
     background: url('/media/clips/bg.png') no-repeat;
     background-size: cover;
