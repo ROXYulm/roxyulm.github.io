@@ -3460,8 +3460,8 @@ html, body {
 
 .screen-container {
     position: center;
-    width: 100vw;
-    height: 75vw;
+    width: 1920px;
+    height: 1080px;
     background: url('/media/clips/bg.png') no-repeat;
     background-size: cover;
 }
