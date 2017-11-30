@@ -3459,9 +3459,8 @@ html, body {
 }
 
 .screen-container {
-    position: absolute;
-    width: 100%;
-    height: 75vw;
+    position: center;
+    
     background: url('/media/clips/bg.png') no-repeat;
     background-size: cover;
 }
