@@ -3459,7 +3459,7 @@ html, body {
 }
 
 .screen-container {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 75vw;
     background: url('/media/clips/bg.png') no-repeat;
