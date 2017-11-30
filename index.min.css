@@ -3461,7 +3461,7 @@ html, body {
 .screen-container {
     position: relative;
     width: 1920px;
-    height: 1080px;
+    height: 600px;
     background: url('/media/clips/bg.png') no-repeat;
     background-size: cover;
 }
