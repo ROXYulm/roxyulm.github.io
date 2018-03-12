@@ -91,7 +91,7 @@
 
             <div ng-if="event.view.participantId">
                 <md-button ng-click="setScreen('participant', 'name')"
-                           ng-class="{'md-primary': event.view.phase == 'name' && event.view.video != 'pause'}">1. Slammer
+                           ng-class="{'md-primary': event.view.phase == 'name' && event.view.video != 'pause'}">1. Poet
                     anzeigen
                 </md-button>
                 <br>
@@ -137,7 +137,7 @@
                 </p>
                 <md-button ng-click="showGroupWinners()">1. Ergebnisse der Gruppe anzeigen</md-button>
                 <div ng-if="event.view.screen == 'groupRatings' && event.view.phase == 'winners'">
-                    <md-button ng-click="increaseWinnerCount()">1.1 Nächsten Slammer anzeigen</md-button>
+                    <md-button ng-click="increaseWinnerCount()">1.1 Nächsten Poet anzeigen</md-button>
                 </div>
                 <br>
                 <md-button ng-click="setVideo('pause')">2. Pause-Screen</md-button>
